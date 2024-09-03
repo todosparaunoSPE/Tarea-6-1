@@ -51,7 +51,7 @@ pdf_file = "tarea-6.pdf"
 with open(pdf_file, "rb") as f:
     pdf_data = f.read()
     st.download_button(
-        label="Descargar manual de tarea-6 en PDF",
+        label="Descargar manual de tarea-6-1 en PDF",
         data=pdf_data,
         file_name="tarea-6-1.pdf",
         mime="application/pdf"
