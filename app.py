@@ -45,7 +45,7 @@ else:
 
 
 # Nombre del archivo PDF
-pdf_file = "tarea-6.pdf"
+pdf_file = "ejercicio_sin_numero.pdf"
 
 # Botón de descarga
 with open(pdf_file, "rb") as f:
