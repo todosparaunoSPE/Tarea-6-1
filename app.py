@@ -53,7 +53,7 @@ with open(pdf_file, "rb") as f:
     st.download_button(
         label="Descargar manual de tarea-6-1 en PDF",
         data=pdf_data,
-        file_name="tarea-6-1.pdf",
+        file_name="ejercicio_sin_numero.pdf",
         mime="application/pdf"
     )
 
