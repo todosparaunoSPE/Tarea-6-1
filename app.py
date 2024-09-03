@@ -10,6 +10,8 @@ import numpy as np
 
 # Título de la aplicación
 st.title("Prueba de Hipótesis sobre el Coeficiente de Correlación ρ")
+st.write("Por: Javier Horacio Pérez Ricárdez")
+
 
 st.write("Este cálculo se realiza utilizando las fórmulas proporcionadas para probar la hipótesis nula: \( H_0: ρ = 0 \)")
 
