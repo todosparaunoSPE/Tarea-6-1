@@ -42,3 +42,18 @@ if abs(z) > z_critico:
     st.write("**Resultado:** Se rechaza la hipótesis nula \( H_0: ρ = 0 \). Existe evidencia suficiente para concluir que la correlación es diferente de cero.")
 else:
     st.write("**Resultado:** No se rechaza la hipótesis nula \( H_0: ρ = 0 \). No existe evidencia suficiente para concluir que la correlación es diferente de cero.")
+
+
+# Nombre del archivo PDF
+pdf_file = "tarea-6.pdf"
+
+# Botón de descarga
+with open(pdf_file, "rb") as f:
+    pdf_data = f.read()
+    st.download_button(
+        label="Descargar manual de tarea-6 en PDF",
+        data=pdf_data,
+        file_name="tarea-6-1.pdf",
+        mime="application/pdf"
+    )
+
